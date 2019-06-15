@@ -15,6 +15,13 @@ h2 {
 	margin: 15px 0px;
 }
 
+h3 {
+	font-size: 18px;
+	color: #3a3e3f;
+	font-weight: bold;
+	margin: 15px 0px;
+}
+
 h4 {
 	font-weight: 18px;
 	color: #f47f66;
@@ -26,12 +33,12 @@ h6 {
 	font-size: 14px;
 	color: #959595;
 	font-style: italic;
+	margin: 15px 0px;
 }
 
 p {
 	font-size: 16px;
 	color: #656565;
-	line-height: 25px;
 }
 
 a {
@@ -100,7 +107,7 @@ header {
 .content {
 	float: left;
 	width: 628px;
-	margin: 100px 0px 0px 120px;
+	margin: 100px 0px 0px 160px;
 }
 
 .news {
@@ -108,7 +115,7 @@ header {
 }
 
 .image {
-	border: 10px solid white;
+	border: 10px solid #fefefe;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -116,9 +123,10 @@ header {
 
 .text {
 	width: 628px;
-	background-color: white;
+	background-color: #fefefe;
 	margin-top: 10px;
 	padding: 20px 0px 40px 40px;
+	line-height: 25px;
 }
 
 main a {
@@ -129,6 +137,47 @@ main a:hover {
 	color: #8f9495;
 }
 
+main span {
+	font-size: 12px;
+	line-height: 0px !important;
+	font-style: italic;
+}
+
 .sidebar {
 	float: left;
+	height: 825px;
+	width: 327px;
+	background-color: #fefefe;
+	margin: 100px 0px 0px 160px;
+}
+
+.enter {
+	margin-top: 35px;
+}
+
+.subscribe {
+	position: absolute;
+}
+
+input[type=email] {
+	position: absolute;
+	height: 52px;
+	width: 270px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+input[type=submit] {
+	position: relative;
+	margin: 5px 0px 0px 200px;
+	height: 40px;
+	width: 60px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #3a3e3f;
+}
+
+.updates p {
+	margin-top: 80px;
 }
