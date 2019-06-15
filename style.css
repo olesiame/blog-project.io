@@ -5,4 +5,38 @@
 body {
 	min-height: 3000px;
 	font-family: 'Roboto', sans-serif;
+	background-image: url('images/back2.png');
+}
+
+header {
+	float: left;
+	height: 44px;
+	background-image: url('images/back1.png');
+	width: 100%;
+}
+
+.header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.logo {
+	float: left;
+	height: 44px;
+	width: 369px;
+	background-image: url('images/logo.png');
+	cursor: pointer;
+}
+
+.menu a {
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 12px 10px 10px 30px;
+	height: 44px;
+}
+
+.menu a:hover {
+	color: grey;
 }
