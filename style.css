@@ -8,6 +8,36 @@ body {
 	background-image: url('images/back2.png');
 }
 
+h2 {
+	font-size: 20px;
+	color: #6f7172;
+	font-weight: bold;
+	margin: 15px 0px;
+}
+
+h4 {
+	font-weight: 18px;
+	color: #f47f66;
+	font-weight: bold;
+	margin: 15px 0px;
+}
+
+h6 {
+	font-size: 14px;
+	color: #959595;
+	font-style: italic;
+}
+
+p {
+	font-size: 16px;
+	color: #656565;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
 /*///////////////////////////////////////////////////////////////HEADER/////////////////////////////////////////////*/
 
 header {
@@ -34,7 +64,6 @@ header {
 .menu a {
 	float: left;
 	color: white;
-	text-decoration: none;
 	height: 44px;
 	padding: 12px 10px 10px 30px;
 }
@@ -70,6 +99,34 @@ header {
 
 .content {
 	float: left;
+	width: 628px;
+	margin: 100px 0px 0px 120px;
+}
+
+.news {
+	margin-bottom: 50px;
+}
+
+.image {
+	border: 10px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	width: 628px;
+	background-color: white;
+	margin-top: 10px;
+	padding: 20px 0px 40px 40px;
+}
+
+main a {
+	color: #6f7172;
+}
+
+main a:hover {
+	color: #8f9495;
 }
 
 .sidebar {
