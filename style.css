@@ -40,3 +40,9 @@ header {
 .menu a:hover {
 	color: grey;
 }
+
+.sub-header {
+	background-image: url('images/sub_header.png');
+	height: 48px;
+	border-bottom: 5px solid #b4b4b3;	
+}
