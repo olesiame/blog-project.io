@@ -54,7 +54,7 @@ header {
 	background-image: url('images/back1.png');
 }
 
-.header:after, .col-3:after {
+.header:after, .col-3:after, .sub-news-bar:after {
 	content: "";
 	clear: both;
 	display: block;
@@ -143,15 +143,24 @@ main span {
 	font-style: italic;
 }
 
+.sub-text {
+	width: 265px;
+/*	margin-left: 30px;*/
+	background-color: #fefefe;
+/*	border-right: 50px solid #fefefe;
+	border-left: 50px solid #fefefe;*/
+
+}
+
 .sidebar {
 	position: relative;
+	margin: 100px 0px 0px 160px;
 	float: left;
 	height: 790px;
 	width: 330px;
 	border: 25px solid #fefefe;
 	border-left: 35px solid #fefefe;
 	background-color: #fefefe;
-	margin: 100px 0px 0px 160px;
 }
 
 .enter {
