@@ -144,9 +144,12 @@ main span {
 }
 
 .sidebar {
+	position: relative;
 	float: left;
-	height: 825px;
-	width: 327px;
+	height: 790px;
+	width: 330px;
+	border: 25px solid #fefefe;
+	border-left: 35px solid #fefefe;
 	background-color: #fefefe;
 	margin: 100px 0px 0px 160px;
 }
@@ -163,6 +166,7 @@ input[type=email] {
 	position: absolute;
 	height: 52px;
 	width: 270px;
+	padding-left: 10px;
 	border-radius: 10px;
 	font-size: 16px;
 }
@@ -180,4 +184,31 @@ input[type=submit] {
 
 .updates p {
 	margin-top: 80px;
+}
+
+.recent-posts li {
+	list-style-image: url('images/li1.png');
+	color: #3a3a3a;
+	font-size: 14px;
+}
+
+.recent-posts li h6 {
+	margin-top: 5px;
+}
+
+.popular-tags button {
+	height: 35px;
+	width: 80px;
+	border-radius: 5px;
+	color: #555555;
+	font-weight: bolder;
+}
+
+.popular-tags button:nth-child(4) {
+	margin-bottom: 5px;
+}
+
+main .advertising {
+	position: absolute;
+	margin: 970px 0px 0px 1005px;
 }
