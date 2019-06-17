@@ -29,6 +29,13 @@ h4 {
 	margin: 15px 0px;
 }
 
+h5 {
+	font-size: 14px;
+	color: #959595;
+	font-style: italic;
+	margin: 15px 0px;
+}
+
 h6 {
 	font-size: 14px;
 	color: #959595;
@@ -54,7 +61,7 @@ header {
 	background-image: url('images/back1.png');
 }
 
-.header:after, .col-3:after {
+.header:after, .col-3:after, .footer-socials:after {
 	content: "";
 	clear: both;
 	display: block;
@@ -175,7 +182,7 @@ main span {
 	padding-bottom: 25px;
 }
 
-.sub-text h2, h6 {
+.sub-news h2, h5 {
 	width: 195px;
 	margin-left: 40px;
 }
@@ -203,7 +210,7 @@ main span {
 	position: absolute;
 }
 
-input[type=email] {
+main input[type=email] {
 	position: absolute;
 	height: 52px;
 	width: 270px;
@@ -221,6 +228,13 @@ input[type=submit] {
 	font-size: 16px;
 	font-weight: bold;
 	color: #3a3e3f;
+	border: none;
+}
+
+input[type=submit]:hover {
+	color: #8f9495;
+	cursor: pointer;
+	border: 2px solid #8f9495;
 }
 
 .updates p {
@@ -249,7 +263,98 @@ input[type=submit] {
 	margin-bottom: 5px;
 }
 
+.popular-tags button:hover {
+	color: #6f7172;
+	cursor: pointer;
+}
+
 main .advertising {
 	position: absolute;
 	margin: 970px 0px 0px 1005px;
+}
+
+main .advertising:hover {
+	cursor: pointer;
+}
+
+/*///////////////////////////////////////////////////////////////FOOTER///////////////////////////////////////////////*/
+
+.footer {
+	height: 390px;
+	background-color: #343434;
+}
+
+.footer p {
+	color: #d6d6d6;
+	font-size: 14px;
+	line-height: 20px;
+	width: 490px;
+	padding-top: 50px;
+	margin-left: 160px;
+}
+
+[class*="icon-"] {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	background-color: #f26c4f;
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.icon-facebook {
+	background-image: url('images/facebook-white.png');
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 50% 40%;
+	margin-left: 160px;
+}
+
+.icon-twitter {
+	background-image: url('images/twitter-white.png');
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 50% 45%;
+}
+
+.icon-instagram {
+	background-image: url('images/instagram-white.png');
+	background-repeat: no-repeat;
+	background-size: 28px;
+	background-position: 50% 45%;
+}
+
+footer input[type=email] {
+	position: absolute;
+	height: 55px;
+	width: 445px;
+	border-radius: 10px;
+	padding-left: 15px;
+	font-size: 16px;
+	margin-left: 515px;
+	margin-top: -50px;
+}
+
+footer input[type=submit] {
+	position: absolute;
+	background-color: #f27356;
+	border: none;
+	color: #ca3c20;
+	width: 60px;
+	margin: -42px 0px 0px 890px;
+}
+
+footer input[type=submit]:hover {
+	background-color: #ca3c20;
+	color: #f27356;
+	cursor: pointer;
+	border: 2px solid #f27356;
+}
+
+.copyright {
+	color: #646464;
+	font-weight: bold;
+	margin: 100px 0px 0px 160px;
 }
