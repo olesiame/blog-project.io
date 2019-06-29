@@ -121,19 +121,36 @@ header {
 	margin-bottom: 50px;
 }
 
+
+.text {
+	background-image: url('images/back.png');
+/*	margin-top: -5px; */
+	padding: 25px 0px 40px 40px;
+	line-height: 25px;
+}
+
 .image {
+	position: relative;
 	border: 10px solid #fefefe;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.text {
-	width: 628px;
-	background-color: #fefefe;
-	margin-top: 10px;
-	padding: 20px 0px 40px 40px;
-	line-height: 25px;
+.facebook_link {
+	margin: 80px 0px 0px -580px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-image: url('images/facebook_link.png');
+}
+
+.twitter_link {
+	margin: 140px 0px 0px -580px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-image: url('images/twitter_link.png');
 }
 
 main a {
@@ -168,9 +185,8 @@ main span {
 }
 
 .sub-text {
-	background-color: #fefefe;
-	margin-bottom: 30px;
-	width: 285px;
+	background-image: url('images/back_small.png');
+	padding: 10px 0px 0px 0px;
 }
 
 .sub-text p {
